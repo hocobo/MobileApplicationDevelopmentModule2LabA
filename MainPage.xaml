@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module2LabA.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Red" Padding="24" CornerRadius="0">
+            <Label Text="BMI Calculator" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Editor x:Name="height_inp" Placeholder="Please input height in inches" PlaceholderColor="Red"/>
+        <Editor x:Name="weight_inp" Placeholder="Please input weight in pounds" PlaceholderColor="Red"/>
+        <Button Text="Calculate" BackgroundColor="Red" Clicked="Button_Clicked"></Button>
+        <Label x:Name="BMI" Text="BMI Calculator" HorizontalTextAlignment="Center" TextColor="Red" FontSize="36"/>
+    </StackLayout>
+
+</ContentPage>
